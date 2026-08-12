@@ -1,0 +1,3 @@
+Not currently used. Resume buttons were removed from the site. If you want
+to add a resume link back later, add your PDF here and link to it from
+index.html.

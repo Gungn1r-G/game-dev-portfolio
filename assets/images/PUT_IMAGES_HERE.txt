@@ -1,0 +1,9 @@
+This folder holds images actually used by the site:
+- blender-render-pink-lakeside.jpg
+- blender-render-donut.jpg
+
+To add more Blender renders, drop an image here and duplicate a
+.blender__item block in the #blender section of index.html (see README.md).
+
+Project screenshots/posters and video files are no longer used — Project 1
+embeds a YouTube video directly, and Project 2 has no media.

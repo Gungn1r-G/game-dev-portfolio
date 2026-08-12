@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gitesh Kumar — Unity Gameplay Developer</title>
+<meta name="description" content="Gitesh Kumar — Unity Gameplay Developer and C# Programmer. MS in Computing graduate building interactive gameplay systems and player experiences.">
+
+<!-- ============================================================
+     FAVICON (optional) — replace with your own /assets/images/favicon.png
+     ============================================================ -->
+<link rel="icon" href="data:,">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Skip link for keyboard / screen-reader users -->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================================================
+     NAV
+     ============================================================ -->
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="#hero" class="nav__mark">GK<span class="nav__mark-dot">_</span></a>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav__links" id="navLinks">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section id="hero" class="hero">
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__inner container">
+      <p class="eyebrow mono"><span class="eyebrow__dot"></span>Available for junior gameplay roles</p>
+      <h1 class="hero__name">Gitesh Kumar</h1>
+      <p class="hero__title">Unity Gameplay Developer <span class="hero__title-sep">/</span> C# Programmer</p>
+      <p class="hero__intro">MS in Computing graduate building interactive gameplay systems and player experiences with Unity and C#.</p>
+
+      <div class="hero__actions">
+        <a href="#work" class="btn btn--primary">View Projects</a>
+        <!-- REPLACE: GitHub URL -->
+        <a href="https://github.com/Gungn1r-G" class="btn btn--ghost" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <!-- REPLACE: LinkedIn URL -->
+        <a href="https://linkedin.com/in/giteshgk" class="btn btn--ghost" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+
+      <p class="hero__location mono">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        Irvine, California
+      </p>
+    </div>
+    <a href="#about" class="hero__scroll mono" aria-label="Scroll to About section">scroll<span class="hero__scroll-line"></span></a>
+  </section>
+
+  <!-- ============================================================
+       ABOUT
+       ============================================================ -->
+  <section id="about" class="section about">
+    <div class="container">
+      <p class="section__eyebrow mono">01 — About</p>
+      <div class="about__grid">
+        <h2 class="section__heading">Focused on making things move, react, and feel right in the moment.</h2>
+        <div class="about__body">
+          <p>I'm a Unity developer with an MS in Computing from Wichita State University and a Bachelor of Engineering in Computer Science from Chandigarh University. I previously worked as a Junior Unity Developer at IXR Labs, where I built gameplay mechanics, UI systems, and player interactions in Unity and C#.</p>
+          <p>My work centers on gameplay programming — movement, combat, interaction systems, and the debugging that goes into making them feel solid. I'm comfortable with object-oriented design, version control through Git/GitHub, and iterative, test-as-you-go development. I'm looking to grow as a gameplay or technical game developer on real-time, interactive projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EXPERIENCE
+       ============================================================ -->
+  <section id="experience" class="section experience">
+    <div class="container">
+      <p class="section__eyebrow mono">02 — Experience</p>
+      <div class="exp-card reveal">
+        <div class="exp-card__top">
+          <div>
+            <h3 class="exp-card__role">Junior Unity Developer</h3>
+            <p class="exp-card__org">IXR Labs <span class="dot-sep">·</span> Jaipur, India</p>
+          </div>
+          <p class="exp-card__date mono">Jun 2023 — Oct 2023</p>
+        </div>
+        <ul class="exp-card__list">
+          <li>Developed gameplay mechanics, player interactions and UI systems using Unity and C#.</li>
+          <li>Implemented player movement, gameplay logic and interactive features.</li>
+          <li>Debugged gameplay systems and collaborated using Git/GitHub during iterative development.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WORK / PROJECTS — visual focus of the site
+       ============================================================ -->
+  <section id="work" class="section work">
+    <div class="container">
+      <p class="section__eyebrow mono">03 — Selected Work</p>
+      <h2 class="section__heading section__heading--work">Projects</h2>
+
+      <!-- PROJECT 1 ============================================= -->
+      <article class="project reveal">
+        <div class="project__media">
+          <div class="viewport viewport--embed" tabindex="0" aria-label="First-Person Survival Shooter Prototype gameplay video">
+            <span class="viewport__corner viewport__corner--tl" aria-hidden="true"></span>
+            <span class="viewport__corner viewport__corner--tr" aria-hidden="true"></span>
+            <span class="viewport__corner viewport__corner--bl" aria-hidden="true"></span>
+            <span class="viewport__corner viewport__corner--br" aria-hidden="true"></span>
+
+            <!-- Responsive 16:9 YouTube embed. No autoplay. Lazy-loaded via loading="lazy". -->
+            <iframe
+              class="viewport__embed"
+              src="https://www.youtube.com/embed/XE4XHlgEyF4"
+              title="First-Person Survival Shooter Prototype — gameplay footage"
+              loading="lazy"
+              allow="clipboard-write; encrypted-media; picture-in-picture"
+              allowfullscreen
+              #referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="project__info">
+          <h3 class="project__title">First-Person Survival Shooter Prototype</h3>
+          <p class="project__tech mono">Unity / C#</p>
+          <p class="project__desc">Developed a first-person survival gameplay prototype featuring player movement, combat, enemy interactions, UI systems and game-state management.</p>
+
+          <ul class="project__tags" aria-label="Systems built">
+            <li>First-person movement</li>
+            <li>Combat</li>
+            <li>Enemy interactions</li>
+            <li>Gameplay scripting</li>
+            <li>UI systems</li>
+            <li>Game-state management</li>
+            <li>Iterative debugging/testing</li>
+          </ul>
+
+          <div class="project__links">
+            <a href="https://github.com/Gungn1r-G/first-person-survival-shooter" class="btn btn--small btn--ghost" target="_blank" rel="noopener noreferrer">Project Details</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ADDITIONAL PROJECT — smaller, secondary treatment, no media ===== -->
+      <p class="additional-label mono reveal">Additional Project</p>
+      <article class="project-mini reveal">
+        <div class="project-mini__top">
+          <div>
+            <h3 class="project-mini__title">Lunar Survival Prototype</h3>
+            <p class="project-mini__tech mono">Unity / C#</p>
+          </div>
+        </div>
+        <p class="project-mini__desc">Developed a survival prototype centered around resource collection and time management.</p>
+        <ul class="project__tags" aria-label="Systems built">
+          <li>Oxygen system</li>
+          <li>Timer</li>
+          <li>Collectibles</li>
+          <li>Player movement</li>
+          <li>UI systems</li>
+          <li>Resource management</li>
+          <li>Gameplay debugging</li>
+        </ul>
+        <div class="project__links">
+          <a href="https://github.com/Gungn1r-G/lunar-survival-prototype" class="btn btn--small btn--ghost" target="_blank" rel="noopener noreferrer">Project Details</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SKILLS
+       ============================================================ -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <p class="section__eyebrow mono">04 — Technical Skills</p>
+      <div class="skills__grid">
+        <div class="skill-group reveal">
+          <h3 class="skill-group__title mono">Game Development</h3>
+          <ul class="skill-group__list">
+            <li>Unity</li>
+            <li>Gameplay Programming</li>
+            <li>Gameplay Mechanics</li>
+            <li>Gameplay Scripting</li>
+            <li>UI Systems</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group__title mono">Programming</h3>
+          <ul class="skill-group__list">
+            <li>C#</li>
+            <li>Object-Oriented Programming</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group__title mono">Development</h3>
+          <ul class="skill-group__list">
+            <li>Git / GitHub</li>
+            <li>Debugging</li>
+            <li>Iterative Testing</li>
+            <li>Game State Management</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group__title mono">Tools</h3>
+          <ul class="skill-group__list">
+            <li>Unity</li>
+            <li>Blender</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EDUCATION
+       ============================================================ -->
+  <section id="education" class="section education">
+    <div class="container">
+      <p class="section__eyebrow mono">05 — Education</p>
+      <div class="edu__grid">
+        <div class="edu-card reveal">
+          <p class="edu-card__degree">Master of Science in Computing</p>
+          <p class="edu-card__school">Wichita State University</p>
+          <p class="edu-card__year mono">2026</p>
+        </div>
+        <div class="edu-card reveal">
+          <p class="edu-card__degree">Bachelor of Engineering in Computer Science</p>
+          <p class="edu-card__school">Chandigarh University</p>
+          <p class="edu-card__year mono">2023</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BLENDER / 3D — secondary, small
+       ============================================================ -->
+  <section id="blender" class="section blender">
+    <div class="container">
+      <p class="section__eyebrow mono">06 — 3D / Blender</p>
+      <div class="blender__row">
+        <p class="blender__note">A secondary interest alongside gameplay programming. Renders added as they're finished.</p>
+        <div class="blender__strip" role="list" aria-label="Blender renders">
+          <!-- ============================================================
+               Add more Blender renders by duplicating a .blender__item block.
+               ============================================================ -->
+          <div class="blender__item" role="listitem">
+            <img src="assets/images/blender-render-pink-lakeside.jpg" alt="Stylized Blender render of a pink-blossomed tree on a grassy tile with a small pond" loading="lazy">
+          </div>
+          <div class="blender__item" role="listitem">
+            <img src="assets/images/blender-render-donut.jpg" alt="Blender render of a frosted donut with sprinkles on a plate next to a mug of coffee" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+       ============================================================ -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <p class="section__eyebrow mono">07 — Contact</p>
+      <h2 class="section__heading">Looking for junior gameplay programming, Unity development, or technical game developer roles.</h2>
+      <p class="contact__cta-line">If that sounds like a fit, I'd like to hear from you.</p>
+
+      <div class="contact__links">
+        <a href="mailto:northpath.work@gmail.com" class="contact__link">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3z"/><path d="m3 6 9 7 9-7"/></svg>
+          northpath.work@gmail.com
+        </a>
+        <!-- REPLACE: LinkedIn URL -->
+        <a href="https://linkedin.com/in/giteshgk" class="contact__link" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 11v5M8 8v.01M12 16v-5m0 0c0-1.5 1-2 2.2-2S16 9.5 16 11v5"/></svg>
+          linkedin.com/in/giteshgk
+        </a>
+        <!-- REPLACE: GitHub URL -->
+        <a href="https://github.com/Gungn1r-G" class="contact__link" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.83-2.34 4.68-4.57 4.92.36.31.68.92.68 1.85v2.75c0 .26.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+          github.com/Gungn1r-G
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="mono">Gitesh Kumar © <span id="year"></span></p>
+    <a href="#hero" class="site-footer__top mono">back to top ↑</a>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

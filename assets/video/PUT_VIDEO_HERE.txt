@@ -1,0 +1,2 @@
+Not currently used. The First-Person Survival Shooter project embeds a
+YouTube video directly (see index.html) instead of a local video file.
